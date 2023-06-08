@@ -1,0 +1,78 @@
+Lum             :  256.827        # 256.827(5TeV) and 339.8(13TeV)
+Energy          :  5              # Touts les choix : 13, 5
+Channel         :  Wplusenu       # Touts les choix :
+Charge          :  plusenu     
+Bins            :  Large          # Touts les choix : Large, Small
+Variable        :  Lepton_pT      # Touts les choix : Lepton_Eta, Lepton_pT
+Electron        :  0
+Niterations     :  10
+
+# Nominal for data and Simulation
+#5TeV
+Wplusenu5_data     : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusenu_DATA_5TeV/Nominal/merge/DATA_5TeV_wplusenu.root
+Wplusenu5_BSdata   : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusenu_DATA_5TeV/Bootstrap/merge/DATA_5TeV_wplusenu.root
+Wplusenu5_MC       : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusenu_MC_5TeV/Nominal/merge/MC_5TeV_wplusenu.root
+
+Wplusmunu5_data    : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusmunu_DATA_5TeV/Nominal/merge/data17_WZ_lowMu_repro_5TeV.root
+Wplusmunu5_BSdata  : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusmunu_DATA_5TeV/Bootstrap/merge/data17_WZ_lowMu_repro_5TeV.root
+Wplusmunu5_MC      : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusmunu_MC_5TeV/Nominal/merge/mc16_5TeV.361101.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu.e4916_s3238_r10243_r10210_p3665.root
+
+Wminusenu5_data    : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusenu_DATA_5TeV/Nominal/merge/data17_WZ_lowMu_repro_5TeV.root
+Wminusenu5_BSdata  : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusenu_DATA_5TeV/Bootstrap/merge/data17_WZ_lowMu_repro_5TeV.root
+Wminusenu5_MC      : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusenu_MC_5TeV/Nominal/merge/mc16_5TeV.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.e4916_s3238_r10243_r10210_p3665.root
+
+Wminusmunu5_data   : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusmunu_DATA_5TeV/Nominal/merge/data17_WZ_lowMu_repro_5TeV.root
+Wminusmunu5_BSdata : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusmunu_DATA_5TeV/Bootstrap/merge/data17_WZ_lowMu_repro_5TeV.root
+Wminusmunu5_MC     : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusmunu_MC_5TeV/Nominal/merge/mc16_5TeV.361104.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu.e4916_s3238_r10243_r10210_p3665.root
+
+
+
+# Background Samples
+#5TeV
+Wminusenu5_Bkgd1   : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusenu_MC_5TeV/Background/merge/Background_W.root
+Wminusenu5_Bkgd2   : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusenu_MC_5TeV/Background/merge/Background_Z.root
+Wminusenu5_Bkgd3   : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusenu_MC_5TeV/Background/merge/Background_dilepton.root
+Wminusenu5_Bkgd4   : /eos/user/h/hatmani/PostDoc/W_Xs/MJbkg/5TeV/Wminusenu.root
+Wminusenu5_Bkgd5   : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusenu_MC_5TeV/Background/merge/Background_Top.root
+
+Wminusmunu5_Bkgd1  : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusmunu_MC_5TeV/Background/merge/Background_W.root
+Wminusmunu5_Bkgd2  : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusmunu_MC_5TeV/Background/merge/Background_Z.root
+Wminusmunu5_Bkgd3  : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusmunu_MC_5TeV/Background/merge/Background_dilepton.root
+Wminusmunu5_Bkgd4  : /eos/user/h/hatmani/PostDoc/W_Xs/MJbkg/5TeV/Wminusmunu.root
+Wminusmunu5_Bkgd5  : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusmunu_MC_5TeV/Background/merge/Background_Top.root
+
+Wplusenu5_Bkgd1    : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusenu_MC_5TeV/Background/merge/Background_W.root
+Wplusenu5_Bkgd2    : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusenu_MC_5TeV/Background/merge/Background_Z.root
+Wplusenu5_Bkgd3    : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusenu_MC_5TeV/Background/merge/Background_dilepton.root
+Wplusenu5_Bkgd4    : /eos/user/h/hatmani/PostDoc/W_Xs/MJbkg/5TeV/Wplusenu.root
+Wplusenu5_Bkgd5    : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusenu_MC_5TeV/Background/merge/Background_Top.root
+
+Wplusmunu5_Bkgd1   : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusmunu_MC_5TeV/Background/merge/Background_W.root
+Wplusmunu5_Bkgd2   : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusmunu_MC_5TeV/Background/merge/Background_Z.root
+Wplusmunu5_Bkgd3   : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusmunu_MC_5TeV/Background/merge/Background_dilepton.root
+Wplusmunu5_Bkgd4   : /eos/user/h/hatmani/PostDoc/W_Xs/MJbkg/5TeV/Wplusmunu.root
+Wplusmunu5_Bkgd5   : /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusmunu_MC_5TeV/Background/merge/Background_Top.root
+
+
+
+# Systematic Variatio 
+#5TeV
+Wplusenu5_IdSF     :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusenu_MC_5TeV/IdSF/merge/mc16_5TeV.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.e4916_s3238_r10243_r10210_p3665.root
+Wplusenu5_IsoSF    :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusenu_MC_5TeV/IsoSF/merge/mc16_5TeV.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.e4916_s3238_r10243_r10210_p3665.root
+Wplusenu5_recoSF   :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusenu_MC_5TeV/recoSF/merge/mc16_5TeV.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.e4916_s3238_r10243_r10210_p3665.root
+Wplusenu5_TrigSF   :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusenu_MC_5TeV/TrigSF/merge/mc16_5TeV.361100.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu.e4916_s3238_r10243_r10210_p3665.root
+
+Wplusmunu5_IsoSF   :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusmunu_MC_5TeV/IsoSF/merge/mc16_5TeV.361101.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu.e4916_s3238_r10243_r10210_p3665.root
+Wplusmunu5_recoSF  :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusmunu_MC_5TeV/recoSF/merge/mc16_5TeV.361101.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu.e4916_s3238_r10243_r10210_p3665.root
+Wplusmunu5_TrigSF  :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wplusmunu_MC_5TeV/TrigSF/merge/mc16_5TeV.361101.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu.e4916_s3238_r10243_r10210_p3665.root
+
+Wminusenu5_IdSF    :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusenu_MC_5TeV/IdSF/merge/mc16_5TeV.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.e4916_s3238_r10243_r10210_p3665.root
+Wminusenu5_IsoSF   :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusenu_MC_5TeV/IsoSF/merge/mc16_5TeV.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.e4916_s3238_r10243_r10210_p3665.root
+Wminusenu5_recoSF  :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusenu_MC_5TeV/recoSF/merge/mc16_5TeV.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.e4916_s3238_r10243_r10210_p3665.root
+Wminusenu5_TrigSF  :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusenu_MC_5TeV/TrigSF/merge/mc16_5TeV.361103.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu.e4916_s3238_r10243_r10210_p3665.root
+
+Wminusmunu5_IsoSF  :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusmunu_MC_5TeV/IsoSF/merge/mc16_5TeV.361104.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu.e4916_s3238_r10243_r10210_p3665.root
+Wminusmunu5_recoSF :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusmunu_MC_5TeV/recoSF/merge/mc16_5TeV.361104.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu.e4916_s3238_r10243_r10210_p3665.root
+Wminusmunu5_TrigSF :  /eos/user/h/hatmani/PostDoc/W_Xs/DataSets_5TeV/WCrossSections_wminusmunu_MC_5TeV/TrigSF/merge/mc16_5TeV.361104.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu.e4916_s3238_r10243_r10210_p3665.root
+
+
